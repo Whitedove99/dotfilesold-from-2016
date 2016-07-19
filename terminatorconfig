@@ -1,0 +1,58 @@
+[global_config]
+  inactive_color_offset = 0.59
+  scroll_tabbar = True
+  suppress_multiple_term_dialog = True
+  title_hide_sizetext = True
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#0d1926"
+    background_image = None
+    cursor_color = "#d9e6f2"
+    cursor_shape = underline
+    font = Ubuntu Mono derivative Powerline 10
+    foreground_color = "#d9e6f2"
+    icon_bell = False
+    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[Afterglow]]
+    background_color = "#212121"
+    background_image = None
+    cursor_color = "#d0d0d0"
+    cursor_shape = underline
+    foreground_color = "#d0d0d0"
+    icon_bell = False
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[AtelierSulphurpool]]
+    background_color = "#202746"
+    background_image = None
+    cursor_color = "#979db4"
+    foreground_color = "#979db4"
+    palette = "#202746:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#979db4:#6b7394:#c76b29:#293256:#5e6687:#898ea4:#dfe2f1:#9c637a:#f5f7ff"
+  [[Blazer]]
+    background_color = "#0d1926"
+    background_image = None
+    cursor_color = "#d9e6f2"
+    foreground_color = "#d9e6f2"
+    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
+  [[New Profile]]
+    background_image = None
+    cursor_shape = underline
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
